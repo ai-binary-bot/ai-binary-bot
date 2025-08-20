@@ -1,4 +1,4 @@
-# AI Binary Bot 🤖📈
+I# AI Binary Bot 🤖📈
 
 **Automated Binary Options Trading Bot for Pocket Option**
 
@@ -25,3 +25,13 @@ It can be deployed **24/7** on Render, Replit, or any VPS.
 ```bash
 git clone https://github.com/YOUR-USERNAME/ai-binary-bot.git
 cd ai-binary-bot
+ai-binary-bot/
+│
+├── bot.py                # Main bot script, e tsamaisa trades ka Pocket Option
+├── requirements.txt      # Full dependencies
+├── README.md             # Project description e lokisitsoeng
+├── config.json           # Pocket Option login & settings
+├── .env.example          # Example environment variables
+└── utils/
+    ├── po_api.py         # Functions tsa Pocket Option API
+    └── helpers.py        # Functions tse thusang trading logic
