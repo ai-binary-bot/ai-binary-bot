@@ -1,16 +1,27 @@
-## Hi there 👋
+# AI Binary Bot 🤖📈
 
-<!--
-**ai-binary-bot/ai-binary-bot** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Automated Binary Options Trading Bot for Pocket Option**
 
-Here are some ideas to get you started:
+This bot allows you to run **fully automated trades** on [Pocket Option](https://pocketoption.com) using Python + Selenium.  
+It can be deployed **24/7** on Render, Replit, or any VPS.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 Features
+- 🔄 24/7 trading using Render **Background Worker**
+- 🐍 Built with **Python 3 + Selenium**
+- ⚙️ Easy configuration via **environment variables**
+- 📊 Supports **Demo & Real accounts**
+- ⏱️ Trade expiry times: `15s | 30s | 1m | 5m`
+- 🔐 Secured with Telegram ID restriction
+- ✅ Confirmation button before executing trades
+- 📲 100% mobile-ready (via Telegram bot)
+
+---
+
+## 🛠️ Setup Guide
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/YOUR-USERNAME/ai-binary-bot.git
+cd ai-binary-bot
